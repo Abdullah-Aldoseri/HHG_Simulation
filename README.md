@@ -42,18 +42,22 @@ Some parts of the script analyze experimental CCD images. To run these:
 
 2. After extracting the folders, you'll find multiple directories, each corresponding to a different set of measurements.
 
-3. In the Python script, several code blocks require you to insert the path to the appropriate folder. These lines are clearly marked with comments like:
+3. Here is the Python script:
+
+   ```bash
+   python 1Final_code_arranged.py
+   ```
+
+4. In the Python script, several code blocks require you to insert the path to the appropriate folder. These lines are clearly marked with comments like:
 
    ```python
    folder_path = "/your/local/path/to/folder_name"
    ```
 
-4. Copy the path to each image folder and paste it into the corresponding section in the script.
+5. Copy the path to each image folder and paste it into the corresponding section in the script.
 
-5. Run the script as usual:
-   ```bash
-   python 1Final_code_arranged.py
-   ```
+6. Run the script as usual:
+   
 
 > !!!!!!!   Without linking the image folders correctly, the CCD image analysis sections will not work. !!!!!!
 
