@@ -42,7 +42,7 @@ Some parts of the script analyze experimental CCD images. To run these:
 
 2. After extracting the folders, you'll find multiple directories, each corresponding to a different set of measurements.
 
-3. Here is the Python script:
+3. Under the follwoing name you find the Python script:
 
    ```bash
    python 1Final_code_arranged.py
